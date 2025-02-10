@@ -446,7 +446,7 @@ form.addEventListener("submit", (e) => {
   if (!notValid) {
     submit.value = "Wysyłam...";
     submit.disabled = true;
-    sendForm();
+    //sendForm();
   }
 });
 // End of Form Validation
